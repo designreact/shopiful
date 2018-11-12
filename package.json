@@ -1,0 +1,27 @@
+{
+  "name": "shopiful",
+  "version": "0.0.0",
+  "description": "Shopify Buy meets Contentful API",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/designreact/shopiful.git"
+  },
+  "keywords": [
+    "shopify",
+    "contentful",
+    "shopping",
+    "ecommerce",
+    "crm",
+    "cms"
+  ],
+  "author": "Martin King - DesignReact Ltd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/designreact/shopiful/issues"
+  },
+  "homepage": "https://github.com/designreact/shopiful#readme"
+}
