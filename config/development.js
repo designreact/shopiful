@@ -6,5 +6,5 @@ module.exports = {
   ports: {
     api: 4000,
     website: 4001,
-  }
-}
+  },
+};

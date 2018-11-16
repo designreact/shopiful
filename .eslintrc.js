@@ -1,3 +1,7 @@
+const IGNORE = 0;
+const WARN = 1;
+const ERROR = 2;
+
 module.exports = {
   root: true,
   env: {
@@ -29,5 +33,16 @@ module.exports = {
     flowtype: {
       onlyFilesWithFlowAnnotation: true
     }
+  },
+  rules: {
+    'comma-dangle': [ERROR, 'always-multiline'],
+    'eol-last': ERROR,
+    'semi': ERROR,
+    'key-spacing': [ERROR, {
+      afterColon: true,
+      beforeColon: false,
+    }],
+    'object-curly-spacing': [ERROR, 'always'],
+    'array-bracket-spacing': [ERROR, 'never'],
   }
 }

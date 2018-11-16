@@ -6,5 +6,5 @@ module.exports = {
   ports: {
     api: process.env.API_PORT,
     website: process.env.WEBSITE_PORT,
-  }
-}
+  },
+};
